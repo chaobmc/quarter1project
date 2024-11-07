@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>OnlineShoppingWebsite</title>
+
+	<style>
+	 html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            color: #8a8583 ;
+            text-align: center;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh; 
+            background-color:   #fffaed;
+        }
+
+
+        .header {
+            background-color:#f0c8c8;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            flex-shrink: 0; 
+        }
+
+        .main {
+            display: flex;
+            flex-grow: 1; 
+        }
+
+        .sidebar {
+            width: 25%;
+            background-color:   #ddf5f9;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+         .main-content {
+            flex-grow: 1;
+            background-color:   #c6cee3;
+            padding: 20px;
+            box-sizing: border-box;
+            overflow-y: outo;
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+        }
+        .os{
+        	list-style: none;
+        	display: inline-block;
+        	padding: 30px;
+        }
+
+        
+        .highlight {
+            background-color:   #fff6df;
+            color: black;
+            font-weight: bold;
+        }
+
+        .important {
+            color: red;
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .form-section {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border: 1px solid #ddd;
+        }
+
+        .image-section {
+            margin-top: 20px;
+        }
+
+       img {
+            width: 250px;
+            height: 250px;
+            display: block;
+        }
+
+       
+        .footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            font-size: 14px;
+            flex-shrink: 0; }
+
+        @media (max-width: 768px) {
+            .sidebar {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+
+            .main {
+                flex-direction: column;
+            }
+
+            .main-content {
+                width: 100%;
+            }
+      	img{
+      		align-content: center;
+      	}
+
+      	p{
+      		size: 75px
+      	}
+	</style>
+
+
+</head>
+<body>
+	<div class="container">
+		<div class="header">
+			<h2>!✧ Angelic Aura ✧!</h2>
+		</div>
+		<div>
+
+		
+
+			<div class="main">
+				<div class="sidebar">
+					<h3>Categories</h3>
+					<p><li>Make Up</li>
+						<li>Accessories</li>
+						<li>Dresses</li>
+						<li>Tops</li>
+						<li>Bottoms</li>
+						<li>Shoes</li>
+						<li>Clothing</li>
+						<li>Bags</li>
+						<li>Plus
+						</li></p>
+
+						<h3>Featured</h3>
+					<p><li>Best Sellers</li>
+						<li>Hot in Stock</li>
+						<li>Festival Shop</li>
+						<li>Preorders</li>
+						<li>Back to School</li>
+						<li>Halloween Costumes</li>
+						</p>
+						 <div class="image-section">
+                    <h3>Best Sellers!</h3>
+                    <p>Here are some of our shop's best selling accesories!</p>
+                    <img src="https://i.pinimg.com/enabled_hi/564x/04/07/ed/0407ed86822128045ed46ba007b922a9.jpg">
+                    <img src="https://i.pinimg.com/enabled_hi/564x/74/0c/b7/740cb7b1aed615a0d1ccafc2fcc97f51.jpg">
+                    <img src="file:///C:/Users/chari/Downloads/necklace%202.jpg">
+
+					
+
+						<div class="footer">
+            &copy; 2024 Full Page Layout | All rights reserved.</div>
+
+					</div class="main">
+				    </div>
+
+				    <div class="main-content">      
+				     <h2>About Angelic Aura</h2>
+                <p>Angelic Aura is a fashion brand that embodies the ethereal and enchanting world of shoujo manga. Inspired by the delicate beauty and dreamy aesthetics of this beloved genre, our designs evoke a sense of purity, grace, and timeless elegance.</p>
+
+                <p>Our collections feature soft pastel hues, intricate lace details, and flowing silhouettes that capture the essence of angelic femininity. From delicate dresses to cozy cardigans, each piece is crafted with love and attention to detail to bring your inner princess to life.</p>
+
+                <p>At Angelic Aura, we believe that fashion is more than just clothing; it's a way to express your individuality and embrace your inner beauty. Our designs are created to empower you to feel confident, inspired, and effortlessly stylish.</p>
+
+                	<div class="products">
+                  <h1>Best Sellers!</h1>
+                    <h3>Here are some of our shop's best selling items!</h3>
+                    <ul>
+                    	<li class="os">
+                    <img src="file:///C:/Users/chari/Downloads/340e6a9878924a421aab1abc25c035bc-removebg-preview.png" alt="Warm Shoujo Set">
+                    <p>Warm Shoujo Girl Outfit Set</p>
+                    <p>₱1,230</p>
+                    	<label>Quantity</label>
+				<select id="select" name="select">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3<option>
+					<option value="4">4</option>
+					<option value="5">5</option>    
+				</select>
+
+
+					<button type="submit">Add to Cart!</button>
+
+                </li>
+                <li class="os">
+                    <img src="file:///C:/Users/chari/Downloads/0392a4afbe820931f0ed01a2f46808f7-removebg-preview.png" alt="Beach Shoujo Set">
+                    <p>Beach Girl Outfit Set</p>
+                    <p>₱1,300</p>
+
+             		<label>Quantity</label>
+				<select id="select" name="select">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3<option>
+					<option value="4">4</option>
+					<option value="5">5</option>    
+				</select>
+
+					<button type="submit">Add to Cart!</button>
+
+                </li>
+			<li class="os">
+
+                    <img src="file:///C:/Users/chari/Downloads/14c30563f648bd350df792af564a4f76-removebg-preview.png" alt="Summer Set">
+                    <p>Summer Shoujo Outfit Set</p>
+                    <p>₱1,200</p>
+                    <label>Quantity</label>
+				<select id="select" name="select">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3<option>
+					<option value="4">4</option>
+					<option value="5">5</option>    
+				</select>
+
+                    <button type="submit">Add to Cart!</button>
+
+        
+                  </li>  
+                </ul>
+                <li class="os">
+                  	<img src="file:///C:/Users/chari/Downloads/0bea189a7e0b35f5bb94a38e27cdc066-removebg-preview.png ">
+                  	<p>Floral Outfit Set</p>
+                  	<p>₱1,130</p>
+
+                  		<label>Quantity</label>
+				<select id="select" name="select">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3<option>
+					<option value="4">4</option>
+					<option value="5">5</option>    
+				</select>                  		<button type="submit">Add to Cart!</button>
+
+                  </li> 
+                  </ul>
+
+                  
+                  </li>  
+                </ul>
+                <li class="os">
+                  	<img src="file:///C:/Users/chari/Downloads/download.png ">
+                  	<p>Himekaji Outfit Set</p>
+                  	<p>₱1,130</p>
+                  		<label>Quantity</label>
+				<select id="select" name="select">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3<option>
+					<option value="4">4</option>
+					<option value="5">5</option>    
+				</select>
+
+
+                  	<button type="submit">Add to Cart!</button>
+
+
+                  </li> 
+                  </ul>
+
+                 
+                      </li>  
+                </ul>
+                <li class="os">
+                  	<img src="file:///C:/Users/chari/Downloads/download%20(1).png">
+                  	<p>Coquette Outfit Set</p>
+                  	<p>₱1,120</p>
+
+                  		<label>Quantity</label>
+				<select id="select" name="select">
+					<option value="1">1</option>
+					<option value="2">2</option>
+					<option value="3">3<option>
+					<option value="4">4</option>
+					<option value="5">5</option>    
+				</select>
+                  		<button type="submit">Add to Cart!</button>
+                  		
+                  </li> 
+                  </ul>
+
+
+		
+	
+
+                </div>
+                	    </div>
+
+                	 <div class="form-section">
+                    <h3>Contact Us!</h3>
+                    <form>
+                        <label for="name">Name:</label><br>
+                        <input type="text" id="name" name="name" required><br><br>
+
+                        <label for="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br><br>
+
+                        <label for="message">Message:</label><br>
+                        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                         <button type="submit">Submit</button>
+
+                        <div class="image-section">
+                    <h3>Best Sellers!</h3>
+                    <p>Here are some of our shop's best selling items!</p>
+                    <img src="https://i.pinimg.com/564x/fa/1e/1f/fa1e1f845c68c69380a7460a6740c381.jpg" alt="Floral Shoujo Bag">
+                    <img src="https://i.pinimg.com/736x/33/e0/87/33e087f4f8cffad3f3014b9d8da73f76.jpg" alt="Lacey Drawstring Bag">
+                    <img src="https://i.pinimg.com/564x/5c/40/1f/5c401f9376f4595637bfce2ed0f77c22.jpg" alt="nSchool GirL Shoujo">
+
+
+                     <a href="index">About Us!</a>
+                     <a href="index">Contact Us!</a>
+                     <a href="index">Home</a>
+
+
+                </div>
+                    </form>
+                </div>
+
+</body>
+</html>
